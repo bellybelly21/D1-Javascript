@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets\css\styles.css">
+    <title>Stickers</title>
+</head>
+<body>
+    
+    <nav>
+        <ul class="lista">
+            <li> <a href="ejercicio1.html" class="lista-link" target="_self">Ejercicio 1</a></li>
+            <li> <a href="ejercicio2.html" class="lista-link" target="_self">Ejercicio 2</a></li>
+            <li><a href="ejercicio3.html" class="lista-link" target="_self">Ejercicio 3</a></li>
+        </ul>
+    </nav>
+
+    <h1>Ejercicio 2</h1>
+    <p>Puedes elegir máximo 10 stickers.</p>
+    <div class="stickers">
+        <div class="sticker">
+            <img src="assets\img\imagen.webp" width="200px">
+            <input type="number" name="cantidad" id="cantidad1" value="0">
+        </div>
+        
+        <div class="sticker">
+            <img src="assets\img\imagen.webp" width="200px" style="filter: hue-rotate(120deg);">
+                <input type="number" name="cantidad" id="cantidad2" value="0">
+        </div>
+        
+        <div class="sticker">
+            <img src="assets\img\imagen.webp" width="200px"  style="filter: hue-rotate(70deg);">
+            <input type="number" name="cantidad" id="cantidad3" value="0">
+        </div>
+    </div>
+
+    <button id="calcular">Calcular</button>
+    <p id="resultado"></p>
+
+    <script src="assets\js\ejercicio2.js"></script>
+
+</body>
+</html>
